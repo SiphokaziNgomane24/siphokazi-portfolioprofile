@@ -31,6 +31,15 @@ body {
      position: relative;
      z-index: 1;
  }
+.overlay {
+     z-index: -1;
+     height: 100%;
+     width: 100%;
+     background: black;
+     opacity: 60%;
+     position: absolute;
+     top: 0;
+ }
 
 
 /*
