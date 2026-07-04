@@ -29,7 +29,7 @@ body {
  * Header
  */
 .banner-wrap {
-     background-image: url();
+     background-image: url(./assest/cover.jpeg);
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;
