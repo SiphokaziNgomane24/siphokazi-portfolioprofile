@@ -40,9 +40,9 @@ body {
 .overlay {
      z-index: -1;
      height: 100%;
-     width: 100%;
+     width: 150%;
      background: black;
-     opacity: 60%;
+     opacity: 40%;
      position: absolute;
      top: 0;
  }
