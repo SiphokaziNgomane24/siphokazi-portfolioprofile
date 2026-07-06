@@ -34,7 +34,6 @@ body {
      background-repeat: no-repeat;
      background-position: center;
      height: 100vh;
-     border-bottom: 10px solid #222;
      position: relative;
      z-index: 1;
  }
