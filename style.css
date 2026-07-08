@@ -20,7 +20,9 @@ body {
 /*
  * Header
  */
-
+header {
+   background-color: #00000090;
+}
 .banner-wrap {
      background-image: url(./assest/cover.jpeg);
      background-size: cover;
