@@ -21,9 +21,10 @@
     <link href="style.css" rel="stylesheet">
   </head>
   <body class="">
-    <div class=" banner-wrap vh-100  text-white">
-      u<div class="overlay"></div>
-      <header class="px-5 p-3 text-white fixed-top ">
+    <div class=" banner-wrap vh-100  text-white" >
+      <div class="overlay"></div>
+      <!-- header -->
+      <header class="px-5 p-3 text-white fixed-top" class="scrolling">
      <h3 class="float-md-start mb-0">SN</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
         <a class="nav-link active" aria-current="page" href="Home">Home</a>
@@ -32,15 +33,18 @@
         <a class="nav-link" href="contact">Contact</a>
       </nav>
     </header>
+    <!-- banner wrap -->
     <id="home">
     <main class="d-flex flex-column justify-content-center align-items-center h-75 text-center">
         <div class="overlay"></div>
     <h1 class="display-1">I am Siphokazi Ngomane</h1>
     <p class="lead"> Fullstack Develeoper </p>
   </main>
+    </id>
 </div>
  <section>
- <section id="about-me">
+  <!--main-->
+ <section id="About-me">
   <div class="container py-5">
     <div class="card shadow-sm">
       <div class="card-body p-4">
@@ -69,6 +73,7 @@
     </div>
   </div>
 </section>
+<!-- projects cards -->
 <section id="project">
  <h1><mark>Project</mark></h1>
 <div class="row">
@@ -107,7 +112,8 @@
    </div>
 </div>   
 </section>
-<section id="contact">
+<!-- contact form -->
+<section id="contact" class="mt-5">
    <section class="profile-section">
   <div class="container p-">
     <div class="card shadow-sm">
@@ -122,8 +128,8 @@
           <a href="www.linkedin.com/in/siphokazi-ngomane-07s04m"><i class="bi bi-linkedin"></i></a>
           <a href="https://github.com/SiphokaziNgomane24"><i class="bi bi-github"></i></a>
         </p>
-        <form>
-  <div class="mb-3 mt-5">
+        <form class="mt-4 align-items-center">
+  <div class="mb-3 ">
     <input type="email" class="form-control" id="exampleInputEmail1"  placeholder="Enter your email">
   </div>
     <div class="mb-3">
@@ -144,5 +150,13 @@
   </div>
 </section>
 </section>
+<!-- javascript -->
+<script> 
+  window.addEventListener("scroll",() =>{
+    const header = document.querySelector("header");
+    header.classList.toggle("scrolling", window.scrollY > 0)
+
+}
+</script>
   </body>
 
