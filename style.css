@@ -20,8 +20,9 @@ body {
 /*
  * Header
  */
-header {
-   background-color: #00000090;
+.scrolling {
+   background: #00000090;
+   opacity:70%;
 }
 .banner-wrap {
      background-image: url(./assest/cover.jpeg);
