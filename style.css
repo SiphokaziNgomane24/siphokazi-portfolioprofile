@@ -20,6 +20,7 @@ body {
 /*
  * Header
  */
+
 .banner-wrap {
      background-image: url(./assest/cover.jpeg);
      background-size: cover;
@@ -30,14 +31,14 @@ body {
      z-index: 1;
  }
 .overlay {
-     z-index: -1;
-     height: 100%;
-     width: 120%;
-     background: black;
-     opacity: 40%;
-     position: absolute;
-     top: 0;
- }
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 50%;
+  position: absolute;
+  top: 0;
+}
 
 .nav-masthead .nav-link {
   color: rgba(255, 255, 255, .5);
@@ -46,7 +47,7 @@ body {
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
+  border-bottom-color: rgba(255, 255, 255, 0.25);
 }
 
 .nav-masthead .nav-link + .nav-link {
