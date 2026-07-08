@@ -13,6 +13,7 @@
 
 body {
   background-color: #fffdfd;
+  position: relative;
 }
 
 
@@ -21,8 +22,8 @@ body {
  * Header
  */
 .scrolling {
-   background: #00000090;
-   opacity:70%;
+   background: #000000; 
+   opacity: 70%;
 }
 .banner-wrap {
      background-image: url(./assest/cover.jpeg);
@@ -30,13 +31,14 @@ body {
      background-repeat: no-repeat;
      background-position: center;
      height: 100vh;
+     width: 100%;
      position: relative;
      z-index: 1;
  }
 .overlay {
   z-index: -1;
   height: 100%;
-  width: 110%;
+  width: 103%;
   background: black;
   opacity: 50%;
   position: absolute;
